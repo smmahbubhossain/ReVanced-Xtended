@@ -1,0 +1,46 @@
+enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
+
+[YouTube]
+build-mode = "both"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music]
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+arch = "both"
+
+[Music-ReX]
+enabled = true
+app-name = "Music"
+version = "auto"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced ReX"
+build-mode = "both"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+
+[YouTube-ReX]
+enabled = true
+app-name = "YouTube"
+version = "auto"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced ReX"
+build-mode = "both"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
