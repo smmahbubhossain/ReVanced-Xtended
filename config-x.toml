@@ -20,7 +20,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
 [Music-X]
-enabled = true
+enabled = false
 app-name = "Music"
 version = "auto"
 #excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
@@ -33,7 +33,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
 [YouTube-X]
-enabled = true
+enabled = false
 app-name = "YouTube"
 version = "19.09.37"
 #excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
