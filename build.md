@@ -1,4 +1,4 @@
-YouTube-ReX: 19.09.38  
+YouTube-ReX: 19.09.37  
 Music-ReX (arm-v7a): 6.43.52  
 Music-ReX (arm64-v8a): 6.43.52  
 
