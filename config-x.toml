@@ -6,54 +6,62 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube-X]
-enabled = false
+enabled = true
 app-name = "YouTube"
 version = "19.09.37"
-#excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-#included-patches = "'Add splash animation' 'MaterialYou'"
+exclusive-patches = false
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'custom-branding-icon-afn-red' 'Change player flyout panel toggles' 'Hide animated button background' 'Hide double tap to like animations' Hide fullscreen button' Hide player buttons background' Hide player chapters' Hide voice search button' "
+included-patches = "'Add splash animation' 'MaterialYou' 'custom-branding-icon-mmt' 'custom-branding-name-revanced-xtended'"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced X"
+module-prop-name = "YouTube X"
 build-mode = "both"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-X]
-enabled = false
+enabled = true
 app-name = "Music"
 version = "auto"
-#excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+exclusive-patches = false
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced X"
+module-prop-name = "Music X"
 build-mode = "both"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
 [YouTube-ReX]
-enabled = true
+enabled = false
 app-name = "YouTube"
-version = "19.09.37"
-#excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'Append time stamps information' 'Change player flyout panel toggles'"
-#included-patches = "'Add splash animation' 'MaterialYou'"
+version = "auto"
+exclusive-patches = false
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'Append time stamps information' 'Change player flyout panel toggles'"
+included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = "ReVanced ReX"
+module-prop-name = "YouTube ReX"
 build-mode = "both"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-ReX]
-enabled = true
+enabled = false
 app-name = "Music"
-version = "latest"
-#excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+version = "auto"
+exclusive-patches = false
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = "ReVanced ReX"
+module-prop-name = "Music ReX"
 build-mode = "both"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
