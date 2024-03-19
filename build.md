@@ -1,5 +1,5 @@
-Music-X (arm-v7a): 6.43.52  
 Music-X (arm64-v8a): 6.43.52  
+Music-X (arm-v7a): 6.43.52  
 YouTube-X: 19.09.37  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
