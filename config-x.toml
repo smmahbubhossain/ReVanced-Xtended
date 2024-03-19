@@ -34,8 +34,8 @@ arch = "both"
 [YouTube-ReX]
 enabled = true
 app-name = "YouTube"
-version = "latest"
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+version = "19.09.38"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'Append time stamps information'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
