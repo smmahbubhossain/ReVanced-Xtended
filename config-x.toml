@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube-X]
-enabled = true
+enabled = false
 app-name = "YouTube"
 version = "auto"
 exclusive-patches = false
@@ -21,7 +21,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-X]
-enabled = true
+enabled = false 
 app-name = "Music"
 version = "auto"
 exclusive-patches = false
