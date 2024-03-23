@@ -6,12 +6,12 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube-X]
-enabled = false
+enabled = true 
 app-name = "YouTube"
 version = "auto"
 exclusive-patches = false
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'custom-branding-icon-afn-red' 'Change player flyout panel toggles' 'Hide animated button background' 'Hide double tap to like animations' Hide fullscreen button' Hide player buttons background' Hide player chapters' Hide voice search button' "
-included-patches = "'Add splash animation' 'MaterialYou' 'custom-branding-icon-mmt' 'custom-branding-name-revanced-xtended'"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced X"
@@ -21,7 +21,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-X]
-enabled = false 
+enabled = true 
 app-name = "Music"
 version = "auto"
 exclusive-patches = false
