@@ -5,7 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube-ReX]
+[YouTube]
 enabled = false
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -17,7 +17,7 @@ cli-source = "j-hc/revanced-cli"
 rv-brand = "ReX"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music-ReX]
+[Music]
 enabled = false
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
@@ -32,7 +32,7 @@ arch = "both"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
-[YouTube-X]
+[YouTube]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -44,7 +44,7 @@ cli-source = "j-hc/revanced-cli"
 rv-brand = "XteNded"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music-X]
+[Music]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
