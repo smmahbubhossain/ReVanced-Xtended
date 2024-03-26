@@ -5,7 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
+[YouTube-ReX]
 enabled = false
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -14,17 +14,17 @@ version = "auto"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "j-hc/revanced-cli"
-rv-brand = "ReX"
+#rv-brand = "ReX"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music]
+[Music-ReX]
 enabled = false
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "j-hc/revanced-cli"
-rv-brand = "ReX"
+#rv-brand = "ReX"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
@@ -32,7 +32,7 @@ arch = "both"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
-[YouTube]
+[YouTube-X]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -41,16 +41,16 @@ version = "auto"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
-rv-brand = "XteNded"
+#rv-brand = "X"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music]
+[Music-X]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
-rv-brand = "XteNded"
+#rv-brand = "X"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
