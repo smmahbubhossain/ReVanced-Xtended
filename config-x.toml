@@ -15,7 +15,7 @@ integrations-source = "anddea/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = "XteNded"
 version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music]
 enabled = true
@@ -39,7 +39,7 @@ integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = ""
 version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-ReX]
 enabled = true
@@ -63,7 +63,7 @@ integrations-source = "rufusin/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = ""
 version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music-NX]
 enabled = true
