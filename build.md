@@ -1,5 +1,5 @@
-Music (arm-v7a): 6.49.53  
 Music (arm64-v8a): 6.49.53  
+Music (arm-v7a): 6.49.53  
 YouTube: 19.16.38  
 YouTube-ReX: 19.07.40  
 Music-ReX (arm64-v8a): 6.49.53  
