@@ -5,11 +5,11 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube-Extended]
+[YouTube]
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = "custom-branding-icon-mmt"
+included-patches = "'Custom branding' 'Change header' 'Remove player controls background' 'Enable slide to seek'"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -17,11 +17,11 @@ rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music-Extended]
+[YT-Music]
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = "custom-branding-icon-mmt"
+included-patches = 'Hide category bar' 'Permanent shuffle' 'Permanent repeat'"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
