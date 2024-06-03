@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube-Extended]
 enabled = true
 build-mode = "both"
-excluded-patches = "custom-branding-icon-afn-blue"
+excluded-patches = "custom-branding-icon-revancify-blue"
 included-patches = "custom-branding-icon-mmt"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -20,7 +20,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 [Music-Extended]
 enabled = true
 build-mode = "both"
-excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'custom-branding-icon-afn-blue'"
+excluded-patches = "custom-branding-icon-revancify-blue"
 included-patches = "custom-branding-icon-mmt"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
