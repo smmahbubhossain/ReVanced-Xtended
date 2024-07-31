@@ -5,7 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
+[YouTube XteNded]
 enabled = true
 build-mode = "both"
 excluded-patches = ""
@@ -13,23 +13,23 @@ included-patches = ""
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "XteNded"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[YT-Music]
+[YT-Music XteNded]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "XteNded"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
-[YouTube]
+[YouTube ReX]
 enabled = true
 build-mode = "both"
 excluded-patches = ""
@@ -37,23 +37,23 @@ included-patches = ""
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReX"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[YTMusic]
+[YTMusic ReX]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReX"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
-[YouTube]
+[YouTube NX]
 enabled = true
 build-mode = "both"
 excluded-patches = ""
@@ -61,18 +61,18 @@ included-patches = ""
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "NX"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[YTMusic]
+[YTMusic NX]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "NX"
+rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
