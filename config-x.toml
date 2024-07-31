@@ -17,7 +17,7 @@ rv-brand = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[YT-Music XteNded]
+[YTMusic XteNded]
 enabled = true
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
