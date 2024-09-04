@@ -1,4 +1,4 @@
-name: Build Modules
+name: Build X Modules
 on:
   workflow_call:
     inputs:
@@ -29,9 +29,9 @@ jobs:
         if: ${{ inputs.from_ci }}
         run: |
           if git checkout origin/update build.md; then
-            UPDATE_CFG=$(./build.sh config.toml --config-update)
+            UPDATE_CFG=$(./build.sh config-x.toml --config-update)
             if [ "$UPDATE_CFG" ]; then
-              echo "$UPDATE_CFG" > config.toml
+              echo "$UPDATE_CFG" > config-x.toml
             fi
           fi
 
@@ -45,7 +45,7 @@ jobs:
           echo "NEXT_VER_CODE=$((TAG + 1))" >> $GITHUB_OUTPUT
 
       - name: Build modules/APKs
-        run: ./build.sh config.toml
+        run: ./build.sh config-x.toml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY
