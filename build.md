@@ -1,10 +1,12 @@
-YouTube: 19.34.42  
-Music (arm64-v8a): 7.26.51                     
-Music (arm-v7a): 7.26.51                     
-Music-Extended (arm64-v8a): 7.16.53  
-Music-Extended (arm-v7a): 7.16.53  
-YouTube-Extended: 19.16.39  
-Reddit-Extended: 2024.17.0  
+YTMusic (arm-v7a): 7.16.53  
+YTMusic (arm64-v8a): 7.16.53  
+YouTube: 19.16.39  
+YouTube-ReX: 19.07.40  
+YTMusic-ReX (arm64-v8a): 7.26.51                     
+YTMusic-ReX (arm-v7a): 7.26.51                     
+YouTube-NX: 19.16.39  
+YTMusic-NX (arm-v7a): 7.26.51                     
+YTMusic-NX (arm64-v8a): 7.26.51                     
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
@@ -12,11 +14,16 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/iamsmmh/revanced-magisk-module)
   
 CLI: inotia00/revanced-cli-4.6.2-all.jar  
-Integrations: inotia00/revanced-integrations-1.16.1.apk  
-Patches: inotia00/revanced-patches-4.16.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v4.16.1)
+Integrations: anddea/revanced-integrations-0.158.0.apk  
+Patches: anddea/revanced-patches-2.231.0.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.231.0)
 
-CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.16.0.apk  
-Patches: ReVanced/revanced-patches-4.17.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.17.0)  
+Integrations: rufusin/revanced-integrations-v0.151.6_m.apk  
+Patches: rufusin/revanced-patches-v2.224.9_m.jar  
+[Changelog](https://github.com/rufusin/revanced-patches/releases/tag/v2.224.9_m)
+
+[Changelog](https://github.com/rufusin/revanced-patches/releases/tag/vv2.224.9_m)
+
+Integrations: YT-Advanced/revanced-integrations-1.16.1.apk  
+Patches: YT-Advanced/revanced-patches-2.220.10.jar  
+[Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.220.10)  
