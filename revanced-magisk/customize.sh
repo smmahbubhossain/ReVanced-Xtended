@@ -44,7 +44,10 @@ if ! pmex path "$PKG_NAME" >&2; then
 		BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
 		if [ "${BASEPATH:1:4}" = data ]; then
 			if pmex uninstall -k --user 0 "$PKG_NAME" >&2; then
+				rm -rf "$BASEPATH" 2>&1
 				ui_print "* Cleared existing $PKG_NAME package"
+				ui_print "* Reboot and reflash"
+				abort
 			else abort "ERROR: pm uninstall failed"; fi
 		else ui_print "* Installed stock $PKG_NAME package"; fi
 	fi
@@ -134,16 +137,15 @@ install() {
 }
 if [ $INS = true ] && ! install; then abort; fi
 
+ui_print "* Extracting native libs"
 BASEPATHLIB=${BASEPATH}/lib/${ARCH}
-if [ -z "$(ls -A1 "$BASEPATHLIB")" ]; then
-	ui_print "* Extracting native libs"
-	mkdir -p "$BASEPATHLIB"
-	if ! op=$(unzip -j "$MODPATH"/"$PKG_NAME".apk lib/"${ARCH_LIB}"/* -d "$BASEPATHLIB" 2>&1); then
-		ui_print "ERROR: extracting native libs failed"
-		abort "$op"
-	fi
-	set_perm_recursive "${BASEPATH}/lib" 1000 1000 755 755 u:object_r:apk_data_file:s0
+if [ -d "$BASEPATHLIB" ]; then mkdir -p "$BASEPATHLIB"; else rm -f "$BASEPATHLIB/*" || :; fi
+if ! op=$(unzip -j "$MODPATH"/"$PKG_NAME".apk lib/"${ARCH_LIB}"/* -d "$BASEPATHLIB" 2>&1); then
+	ui_print "ERROR: extracting native libs failed"
+	abort "$op"
 fi
+set_perm_recursive "${BASEPATH}/lib" 1000 1000 755 755 u:object_r:apk_data_file:s0
+
 ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
